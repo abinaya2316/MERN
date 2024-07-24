@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box
+        {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-gap: 10px;
+  background-color:brown;
+            border: 10px solid black;
+  height: 200px;
+  width: 500px;
+        }
+        #box>div
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #num1
+        {
+            background-color: rgb(204, 255, 0);
+
+            grid-column:1/ span 3;
+        }
+        #num2
+        {
+            background-color:darkgray;
+            grid-row:2/ span 2;
+        }
+        #num3
+        {
+            background-color: bisque;
+        }
+        #num4
+        {
+            background-color: darkorchid;
+        }
+        #num5
+        {
+            grid-column: 2/span 2;
+            background-color: deepskyblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div id="num1">1</div>
+        <div id="num2">2</div>
+        <div id="num3">3</div>
+        <div id="num4">4</div>
+        <div id="num5">5</div>
+        
+    </div>
+</body>
+</html>
