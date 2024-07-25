@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            color: brown;
+        }
+        h2
+        {
+            color:greenyellow;
+        }
+        @media screen and (max-width:900px)
+        {
+            h1 
+            {
+                color: hotpink;
+            }
+        }
+        @media screen and (max-width:500px)
+        {
+            h1 
+            {
+                color:blue;
+            }
+        }
+        @media screen and (min-width:700px)
+        {
+            h2 
+            {
+                color: cyan;
+            }
+        }
+        @media screen and (min-width:900px)
+        {
+            h2 
+            {
+                color:fuchsia;
+            }
+        }
+        #one
+        {
+            background-color: indianred;
+            height: 200px;
+            width: 600px;
+        }
+        @media screen and (max-width:900px)
+        {
+            #one 
+            {
+                background-color: hotpink;
+                width: 400px;
+            }
+        }
+        @media screen and (max-width:500px)
+        {
+            #one
+            {
+                background-color:blue;
+                width: 200px;
+
+            }
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <h1>welcome to our intro session</h1>
+    <h2>MINWIDTH</h2>
+    <div id="one"></div>
+</body>
+</html>
